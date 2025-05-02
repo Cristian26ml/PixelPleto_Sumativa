@@ -230,6 +230,21 @@ img {
 #contenedor_juegos h1, p {
     color: aliceblue;
 }
+
+/*-----------Nosotros---------------------------*/
+.found {
+    background-color: #162059;
+    border-color: #162059;
+}
+.codebin {
+background-color: #162059;
+}
+.codebin h1, h2{
+    color: aliceblue;
+}
+.codebin li {
+    color: aliceblue;
+}
 /*.img-final {
     width: 400vw;
 }*/
