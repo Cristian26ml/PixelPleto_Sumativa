@@ -1,0 +1,427 @@
+/* Estilos Generales */
+:root {
+    --primary-color: #192340;
+    --secondary-color: #239Bff;
+    --accent-color: #4981F2;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --card-overlay: rgba(0, 0, 0, 0.5);
+}
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* style.css */
+
+/* Encabezado */
+.site-header {
+    position: relative;
+}
+
+.navbar {
+    padding: 1rem;
+}
+.navbar-nav {
+    gap: 20px;
+}
+.navbar-nav .nav-item {
+    margin-right: 60px;
+}
+
+.nav-link {
+    color: var(--light-text) !important;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.auth-buttons .btn {
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.auth-buttons .btn:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.navbarSupportedContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Sección Hero */
+.hero-section {
+    background: url('./ASSETS/IMAGES/hero-background.jpg') no-repeat center center/cover;
+    background-color: #2E3C8C;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    /*max-width: 800px;
+    margin: 0 auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-text h1 {
+    color: aliceblue;
+}
+.container-text p {
+    color: aliceblue;
+}
+.cta-buttons .btn {
+    margin: 0 10px;
+}
+.hidden {
+    display: none;
+}
+/* Secciones de características */
+.features-section-one {
+    padding: 50px 0;
+    background-color: #162059;
+}
+
+.container-card-one .row .card {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+.container-text h2 {
+    color: #192340;
+}
+.container-text .lead-sub {
+    color: #192340;
+    font-size: 1.5rem;
+}
+
+.features-section-two {
+    padding: 50px 0;
+    background-color: aliceblue;
+}
+
+.features-section-three {
+    padding: 50px 0;
+    background-color: aliceblue;
+}
+
+.features-section-four {
+    background-color: #162059;
+}
+.container-card-four .container-text h2 {
+    color: aliceblue;
+}
+.container-card-four .container-text p {
+    color: aliceblue;
+}
+.section-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.features-section-five {
+    background-color: #2E3C8C;
+}
+.container-card-five {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-card-five .container-text h2 {
+    color: aliceblue;
+}
+.container-card-five .container-text p {
+    color: aliceblue;
+}
+
+
+
+.container-card-five .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.feature-card {
+    flex: 1 1 300px;
+    margin: 10px;
+    max-width: 50%;
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    background-color: #162059;
+}
+.card-title {
+    color: aliceblue;
+}
+/*.category {
+    width: 23rem;
+}*/
+.card-img {
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+.card-final{
+    width: 15vw;
+    height: 40vh;
+}
+.container-gallery {
+    background-color: #2E3C8C;
+}
+#contenedor-galeria{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3px;
+}
+#contenedor-galeria .category{
+    width: 35rem;
+    height: 40rem;
+    margin: 56px;
+    padding: 20px;
+}
+#contenedor-galeria .category .col {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#contenedor_juegos h1, p {
+    color: aliceblue;
+}
+/*.img-final {
+    width: 400vw;
+}*/
+.card-img-overlay {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+.category h2 {
+    color: aliceblue;
+    text-align: center;
+}
+/* Footer */
+.site-footer {
+    background-color: var(--dark-bg);
+    color: var(--light-text);
+}
+
+.site-footer h5 {
+    margin-bottom: 20px;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--light-text);
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+}
+
+.newsletter-form {
+    margin-top: 20px;
+}
+
+.newsletter-form .form-outline {
+    width: 100%;
+}
+
+.contacto-footer {
+    display: flex;
+    justify-content: center;
+}
+.copyright {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+ul, li {
+    list-style-type: none;
+}
+.lista-footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsividad */
+/*@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+
+    .cta-buttons .btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+}*/
+
+/*Responsive pagina principal*/
+@media (min-width: 360px) and (max-width: 766px) {
+    .container-card-one .row .card {
+        height: 15rem;
+        border-radius: 0%;
+    }
+    .feature-card {
+        max-width: 20rem;
+    }
+    .container-card-five {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-final {
+        width: 46vw;
+    }
+    .feature-card {
+        margin: 0;
+    }
+}
+
+
+/*responsive galeria de juegos*/
+/* Responsive Mobile*/
+@media (min-width: 360px) and (max-width: 767px) {
+    #contenedor-galeria {
+        width: 100%;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contenedor-galeria .category {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 calc(17% - 2rem); 
+        max-width: 100%;
+    }
+}
+
+/* Responsive: Tablets (≥ 768px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container-gallery {
+        padding: 10px;
+    }
+    #contenedor-galeria {
+        width: 100%;
+        display: flex !important;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    #contenedor-galeria .category {
+        flex: 1 1 calc(50% - 2rem); 
+        max-width: 48%;
+    }
+    #contenedor-galeria .category .col {
+        width: 35rem;
+        height: 40rem;
+        justify-content: space-around;
+    }
+
+    .card {
+        flex: 1 1 calc(50% - 2rem);
+    }
+
+    .contenido-footer {
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    .contacto-footer form .row {
+        flex-wrap: nowrap;
+    }
+}
+
+/* Responsive: Escritorio (≥ 1024px) */
+@media (min-width: 1024px) and (max-width: 1920px) {
+    #contenedor-galeria {
+        display: flex;
+        flex-direction: column;
+    }
+    #contenedor-galeria .category {
+        flex: 1 1 calc(50% - 2rem); 
+        max-width: 63%;
+    }
+    #contenedor-galeria .category .col {
+        width: 100%;
+        height: 40rem;
+        justify-content: flex-start;
+    }
+
+    .card {
+        flex: 1 1 calc(25% - 2rem);
+    }
+
+    .container-gallery {
+        padding: 4rem;
+    }
+
+    .category h2 {
+        text-align: center;
+    }
+
+    .contenido-footer {
+        padding: 0 2rem;
+    }
+}

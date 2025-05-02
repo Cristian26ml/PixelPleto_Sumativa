@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portal gaming PixelPleto - Explora videojuegos, galerías y contenido gaming">
+    
+    <!-- Óptimo orden de carga de estilos -->
+    <link rel="icon" href="../ASSETS/ICONS/Equipo.ico" type="image/x-icon">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="../ASSETS/CSS/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- Variables CSS globales -->
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --dark-bg: #1a1a1a;
+            --light-text: #ffffff;
+        }
+    </style>
+
+    <title>PixelPleto | Estrategia</title>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../ASSETS/ICONS/Equipologo.svg" alt="Logo PixelPleto" loading="lazy" width="120" height="auto">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbarSupportedContent w-100">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="./PAGES/categoria.html" role="button" aria-expanded="false">Categorías</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./accion.html">Acción</a></li>
+                                    <li><a class="dropdown-item" href="./estrategia.html">Estrategia</a></li>
+                                    <li><a class="dropdown-item" href="./combate.html">Combate</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Otros</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="./PAGES/nosotros.html">Nosotros</a></li>
+                        </ul>
+                        
+                        <div class="auth-buttons">
+                            <a href="../PAGES/login.html" class="btn btn-outline-light me-2">Iniciar Sesión</a>
+                            <a href="../PAGES/registro.html" class="btn btn-outline-light">Registrarse</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container-gallery">
+        <div id="contenedor_juegos" class="container-galeria">
+            <h1 class="text-center">Estrategia</h1>
+            <div class="group-button text-center mb-4">
+                <button id="show-gallery-two" type="button" class="btn btn-outline-light">Presiona Aquí</button>
+            </div>
+            <div id="galeria-content-two" class="hidden2">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="../IMG/galeria/call-of-duty-modern.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.
+                                </p>
+                                <button type="button" class="btn btn-dark" data-mdb-ripple-init>Dark</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="../IMG/galeria/the-last-of-us-part.webp" class="card-img-top" alt="Palm Springs Road"/>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.
+                                </p>
+                                <button type="button" class="btn btn-dark" data-mdb-ripple-init>Dark</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="../IMG/galeria/the-lords-of-the.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.
+                                </p>
+                                <button type="button" class="btn btn-dark" data-mdb-ripple-init>Dark</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="../IMG/galeria/throne-and-liberty.webp" class="card-img-top" alt="Skyscrapers"/>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.
+                                </p>
+                                <button type="button" class="btn btn-dark" data-mdb-ripple-init>Dark</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer bg-dark text-light py-4">
+        <div class="container">
+            <section class="row contenido-footer gy-4">
+                <div class="col-md-4 text-center">
+                    <img src="../ASSETS/ICONS/Equipologo.svg" alt="Logo PixelPleto" width="150" height="auto">
+                </div>
+            </section>
+            <section class="redes-sociales">
+                <div class="col-md-4">
+                    <div class="social-links">
+                        <!-- Enlaces sociales aquí -->
+                        <a data-mdb-ripple-init class="button-network__button" href="https://www.facebook.com" role="button">
+                            <i class="fab fa-facebook-f text-white"></i>
+                            <p>Facebook</p>
+                        </a>
+                        <a data-mdb-ripple-init class="button-network__button" href="https://twitter.com" role="button">
+                            <i class="fab fa-twitter text-white"></i>
+                            <p>Twitter</p>
+                        </a>
+                        <a data-mdb-ripple-init class="button-network__button" href="https://www.instagram.com" role="button">
+                            <i class="fab fa-instagram text-white"></i>
+                            <p>Instagram</p>
+                        </a>
+                        <a data-mdb-ripple-init class="button-network__button" href="https://www.youtube.com" role="button">
+                            <i class="fab fa-youtube text-white"></i>
+                            <p>Youtube</p>
+                        </a>
+                        <a data-mdb-ripple-init class="button-network__button" href="https://www.tiktok.com" role="button">
+                            <i class="fab fa-tiktok text-white"></i>
+                            <p>Tiktok</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="contacto-footer">
+                <form action="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Suscríbase para notificaciones</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-12">
+                            <div data-mdb-input-init class="form-outline mb-4">
+                                <input type="email" id="form5Example24" class="form-control" />
+                                <label class="form-label" for="form5Example24">Dirección Email</label>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button data-mdb-ripple-init type="submit" class="btn btn-outline-light mb-4">
+                                Envíar
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <div class="copyright mt-4 text-center">
+                © 2025 PixelPleto. Todos los derechos reservados.
+                <ul class="lista-footer">
+                    <li>Cristian Laura Muruchi |</li>
+                    <li>| Cristopher Cordova Rebollo |</li>
+                    <li>| Felipe Jara Arancibia |</li>
+                    <li>| Juan Rojas Marquez</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>    
+    <script type="module" src="../ASSETS/JS/script.js"></script>
+    <script src="../ASSETS/JS/categoria.js"></script>
+</body>
+</html>

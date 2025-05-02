@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portal gaming PixelPleto - Explora videojuegos, galerías y contenido gaming">
+    
+    <!-- Óptimo orden de carga de estilos -->
+    <link rel="icon" href="../ASSETS/ICONS/Equipo.ico" type="image/x-icon">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./ASSETS/CSS/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- Variables CSS globales -->
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --dark-bg: #1a1a1a;
+            --light-text: #ffffff;
+        }
+    </style>
+
+    <title>PixelPleto | Tu Portal Gaming</title>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./ASSETS/ICONS/Equipologo.svg" alt="Logo PixelPleto" loading="lazy" width="120" height="auto">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbarSupportedContent w-100">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="./PAGES/categoria.html" role="button" aria-expanded="false">Categorías</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./PAGES/accion.html">Acción</a></li>
+                                    <li><a class="dropdown-item" href="./PAGES/estrategia.html">Estrategia</a></li>
+                                    <li><a class="dropdown-item" href="./PAGES/combate.html">Combate</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Otros</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="./PAGES/nosotros.html">Nosotros</a></li>
+                        </ul>
+                        
+                        <div class="auth-buttons">
+                            <a href="./PAGES/login.html" class="btn btn-outline-light me-2">Iniciar Sesión</a>
+                            <a href="./PAGES/registro.html" class="btn btn-outline-light">Registrarse</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="hero-section">
+            <div class="container hero-content">
+                <div class="logo-container">
+                    <img src="./ASSETS/ICONS/Equipol.gif" alt="Animación PixelPleto" loading="lazy">
+                </div>
+                
+                <div class="container-text text-center">
+                    <h1 class="display-4 mb-3">Bienvenidos a PixelPleto</h1>
+                    <p class="lead mb-4">Tu portal para el mundo de los videojuegos</p>
+                    
+                    <div class="cta-buttons">
+                        <a href="./PAGES/galeria.html" class="btn btn-outline-light me-2">Explorar Juegos</a>
+                        <a href="./PAGES/categoria.html" class="btn btn-outline-light">Ver Categorías</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+<!---------------------------------------------------------------------->
+    <main class="site-main">
+        <section class="features-section-one py-3">
+            <div class="container-card-one">    
+                <div class="row">
+                    <article class="feature-card col-md">
+                        <div class="card text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/juegoss.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Juegos Populares</h3>
+                                <p class="card-text">Descubre los títulos más jugados y aclamados por la comunidad gamer.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md">
+                        <div class="card text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/steam.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Recomendaciones</h3>
+                                <p class="card-text">Encuentra videojuegos recomendados según tus intereses.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md">
+                        <div class="card text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/galeriaa.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Galeria Visual</h3>
+                                <p class="card-text">Explora imágenes impresionantes de tus videojuegos favoritos.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md">
+                        <div class="card text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/enlacess.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Enlaces Útiles</h3>
+                                <p class="card-text">Accede a recursos y sitios web relevantes para gamers.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md">
+                        <div class="card text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/torneoo.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Eventos y Torneos</h3>
+                                <p class="card-text">Mantente al día con los eventos y competencias más emocionantes.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md">
+                        <div class="card text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/comunidadd.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Comunidad Activa</h3>
+                                <p class="card-text">Conecta con otros jugadores y comparte tu pasión por los videojuegos.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>            
+        </section>
+        <section class="features-section-two py-3">
+            <div class="container-card-two">
+                <div class="container-text text-center">
+                    <h2 class="display-4 mb-3">Explora Categorías</h2>
+                    <p class="lead-sub mb-4">Encuentra videojuegos organizados por géneros para facilitar tu búsqueda</p> 
+                </div>
+
+                <div class="row">
+                    <article class="feature-card col-md-4">
+                        <div class="card text-center text-bg-dark">
+                            <img src="https://www.xtrafondos.com/thumbs/webp/1_13129.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Acción</h3>
+                                <a href="./PAGES/accion.html" class="btn btn-outline-light">Explorar</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md-4">
+                        <div class="card text-center text-bg-dark">
+                            <img src="https://www.xtrafondos.com/thumbs/webp/1_11408.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Estrategia</h3>
+                                <a href="./PAGES/estrategia.html" class="btn btn-outline-light">Explorar</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md-4">
+                        <div class="card text-center text-bg-dark">
+                            <img src="https://www.xtrafondos.com/thumbs/webp/1_9410.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Combate</h3>
+                                <a href="./PAGES/combate.html" class="btn btn-outline-light">Explorar</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>            
+        </section>
+        <section class="features-section-three py-3">
+            <div class="container-card-three">
+                <div class="container-text text-center">
+                    <h2 class="display-4 mb-3">Galería de Videojuegos</h2>
+                    <p class="lead-sub mb-4">Sumérgete en una colección visual de momentos épicos y gráficos impresionantes de videojuegos.</p> 
+                </div>
+
+                <div class="row">
+                    <article class="feature-card col-md-4">
+                        <div class="card text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/batalla.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Batallas Épicas</h3>
+                                <a href="./PAGES/galeria.html" class="btn btn-outline-light">Acción</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md-4">
+                        <div class="card text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/mundos.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Mundos Fantásticos</h3>
+                                <a href="./PAGES/galeria.html" class="btn btn-outline-light">Fantasía</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md-4">
+                        <div class="card text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/competencias.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Competencias</h3>
+                                <a href="./PAGES/galeria.html" class="btn btn-outline-light">Deportes</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md-4">
+                        <div class="card text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/estrategia.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Estrategias Maestras</h3>
+                                <a href="./PAGES/galeria.html" class="btn btn-outline-light">Estrategia</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md-4">
+                        <div class="card text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/rol.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Aventuras de Rol</h3>
+                                <a href="./PAGES/galeria.html" class="btn btn-outline-light">Rol</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md-4">
+                        <div class="card text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/arcade.webp" class="card-img" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Clasicos de Arcade</h3>
+                                <a href="./PAGES/login.html" class="btn btn-outline-light">Arcade</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>            
+        </section>
+        <section class="features-section-four py-3">
+            <div class="container-card-four">
+                <div class="container-text text-center">
+                    <h2 class="display-4 mb-3">Descubre Más en PixelPleto</h2>
+                    <p class="lead-sub mb-4">Explora las secciones clave de nuestro sitio y encuentra contenido exclusivo sobre videojuegos.</p>
+                    <div class="section-buttons">
+                        <a class="btn nav-point btn-outline-light" href="" role="button">Comenzar Ahora</a>
+                        <a class="btn nav-point btn-outline-light" href="" role="button">Más Información</a>
+                        <!--<button type="button" class="btn nav-point btn-outline-secondary">Comenzar Ahora</button>
+                        <button type="button" class="btn nav-point btn-outline-secondary">Más Información</button>-->
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <section class="features-section-five py-3">
+            <div class="container-card-five">
+                <div class="container-text text-center">
+                    <h2 class="display-4 mb-3">Por qué Elegir PixelPleto</h2>
+                    <p class="lead-sub mb-4">Tu fuente confiable para descubrir videojuegos destacados, imágenes únicas y recursos útiles.</p>
+                    <div class="section-buttons">
+                        <a class="btn nav-point btn-outline-light" href="" role="button">Saber Más</a>
+                        <!--<button type="button" class="btn nav-point btn-outline-secondary">Saber Más</button>-->
+                    </div>
+                </div>
+
+                <div class="row">
+                    <article class="feature-card col-md-4">
+                        <div class="card card-final text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/seguridad.webp" class="card-img img-final" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Contenido Curado</h3>
+                                <p class="card-textp">Accede a información seleccionada cuidadosamente sobre videojuegos.</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md-4">
+                        <div class="card card-final text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/actualizacion.webp" class="card-img img-final" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Actualizaciones Contantes</h3>
+                                <p class="card-textp">Mantener al día con las ultimas novedades en el mundo gamer.</p>                            
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md-4">
+                        <div class="card card-final text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/interfaz.webp" class="card-img img-final" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Interfaz Intuitiva</h3>
+                                <p class="card-textp">Navega fácilmente y encuentra lo que buscas rápidamente.</p>                            
+                            </div>
+                        </div>
+                    </article>
+                    <article class="feature-card col-md-4">
+                        <div class="card card-final text-center text-bg-dark">
+                            <img src="./ASSETS/IMG/comunidad.webp" class="card-img img-final" alt="...">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title">Comunidad Gamer</h3>
+                                <p class="card-textp">Únete a una comunidad apasionada por los videojuegos.</p>                            
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>            
+        </section>  
+    </main>
+    <!------------------------------------------------------------------>
+    <footer class="site-footer bg-dark text-light py-4">
+        <div class="container">
+            <section class="row contenido-footer gy-4">
+                <div class="col-md-4 text-center">
+                    <img src="./ASSETS/ICONS/Equipologo.svg" alt="Logo PixelPleto" width="150" height="auto">
+                </div> 
+            </section>
+            <section class="redes-sociales">
+                <div class="col-md-4">
+                    <div class="social-links">
+                        <!-- Enlaces sociales aquí -->
+                        <a data-mdb-ripple-init class="button-network__button" href="https://www.facebook.com" role="button">
+                            <i class="fab fa-facebook-f text-white"></i>
+                            <p>Facebook</p>
+                        </a>
+                        <a data-mdb-ripple-init class="button-network__button" href="https://twitter.com" role="button">
+                            <i class="fab fa-twitter text-white"></i>
+                            <p>Twitter</p>
+                        </a>
+                        <a data-mdb-ripple-init class="button-network__button" href="https://www.instagram.com" role="button">
+                            <i class="fab fa-instagram text-white"></i>
+                            <p>Instagram</p>
+                        </a>
+                        <a data-mdb-ripple-init class="button-network__button" href="https://www.youtube.com" role="button">
+                            <i class="fab fa-youtube text-white"></i>
+                            <p>Youtube</p>
+                        </a>
+                        <a data-mdb-ripple-init class="button-network__button" href="https://www.tiktok.com" role="button">
+                            <i class="fab fa-tiktok text-white"></i>
+                            <p>Tiktok</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="contacto-footer">
+                <form action="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Suscríbase para notificaciones</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-5 col-12">
+                            <div data-mdb-input-init class="form-outline mb-4">
+                                <input type="email" id="form5Example24" class="form-control" />
+                                <label class="form-label" for="form5Example24">Dirección Email</label>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button data-mdb-ripple-init type="submit" class="btn btn-outline-light mb-4">
+                                Envíar
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+            <div class="copyright mt-4 text-center">
+                © 2025 PixelPleto. Todos los derechos reservados.
+                <ul class="lista-footer">
+                    <li>Cristian Laura Muruchi |</li>
+                    <li>| Cristopher Cordova Rebollo |</li>
+                    <li>| Felipe Jara Arancibia |</li>
+                    <li>| Juan Rojas Marquez</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>    
+    <script src="./JS/script.js"></script>
+</body>
+</html>
